@@ -2,6 +2,7 @@
 <!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 380.6 300" style="enable-background:new 0 0 380.6 300;" xml:space="preserve">
+	  	 <script  id="script4044" xlink:href="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg.js"></script>
 <style type="text/css">
 	.st0{fill:#FFFFFF;stroke:#010101;stroke-width:2.4;stroke-miterlimit:3;}
 	.st1{display:none;}
@@ -206,379 +207,7 @@
 			</g>
 		</g>
 		<line class="st35" x1="-4.3" y1="149.2" x2="395.8" y2="149"/>
-		<script  id="script4196" type="text/javascript">
-			<![CDATA[
-
-	var s = Snap("#Foosha");
-	var rfoot = Snap("#lfoot");
-	var lfoot = Snap("#rfoot");
-
-	s.attr({ transform:'translate(0, 0)'})
-	lfoot.attr({ fill: 'white', transform:'translate(0, 0)'})
-    rfoot.transform('r0,0,0');
-	lfoot.transform('r0');
-	rfoot.attr({ fill: 'white',transform:'translate(0, 0)'})
-    rfoot.transform('r360,0,0');
-	rfoot.animate({ transform: "r360,0,0" }, 1000)
-
-
-
-		var firstStepBody = function(){
-
-			console.log("Hello?")
-			s.animate(
-				{ transform:'t-10,0' },300, secondStepBody
-			)
-
-		}
-		var secondStepBody = function(){
-
-			s.animate(
-				{ transform:'t-10,0' },300, thirdStepBody
-			)
-
-		}
-		var thirdStepBody = function(){
-
-			s.animate(
-				{ transform:'t-10,-10' },300, fourthStepBody
-			)
-
-		}
-		var fourthStepBody = function(){
-
-			s.animate(
-				{ transform:'t-30,0' },300, fifthStepBody
-			)
-
-		}
-		var fifthStepBody = function(){
-
-			s.animate(
-				{ transform:'t-30,-10' },300, sixthStepBody
-			)
-
-		}
-		var sixthStepBody = function(){
-
-			s.animate(
-				{ transform:'t-50,0' },300, seventhStepBody
-			)
-
-		}
-
-		var seventhStepBody = function(){
-
-			s.animate(
-				{ transform:'t-50,-10' },300, eighthStepBody
-			)
-
-		}
-		var eighthStepBody = function(){
-
-			s.animate(
-				{ transform:'t-70,0' },300, ninthStepBody
-			)
-
-		}
-		var ninthStepBody = function(){
-
-			s.animate(
-				{ transform:'t-70,-10' },300, tenthStepBody
-			)
-
-		}
-		var tenthStepBody = function(){
-
-			s.animate(
-				{ transform:'t-90,0' },300, eleventhStepBody
-			)
-
-		}
-		var eleventhStepBody = function(){
-
-			s.animate(
-				{ transform:'t-90,-10' },300, twelthStepBody
-			)
-
-		}
-		var twelthStepBody = function(){
-
-			s.animate(
-				{ transform:'t-110,0' },300, thirteenthStepBody
-			)
-
-		}
-		var thirteenthStepBody = function(){
-
-			s.animate(
-				{ transform:'t-110,-10' },300, fourteenthStepBody
-			)
-
-		}
-		var fourteenthStepBody = function(){
-
-			s.animate(
-				{ transform:'t-130,0' },300, fifteenthStepBody
-			)
-
-		}
-		var fifteenthStepBody = function(){
-
-			s.animate(
-				{ transform:'t-130,-10' },300, sixteenthStepBody
-			)
-
-		}
-		var sixteenthStepBody = function(){
-
-			s.animate(
-				{ transform:'t-150,0' },300, firstStepBody
-			)
-
-		}
-
-
-		var firstStep = function(){
-
-			console.log("red?")
-			lfoot.animate(
-				{ transform:'t-10,0,r45' },300, secondStep
-			)
-
-		}
-		var secondStep = function(){
-			console.log("2")
-
-			lfoot.animate(
-				{ transform:'t-10,-20,r360' },300, thirdStep
-			)
-
-		}
-		var thirdStep = function(){
-			console.log("3")
-			lfoot.animate(
-				{ transform:'t-10,0,r45' },300, fourthStep
-			)
-
-		}
-		var fourthStep = function(){
-			console.log(4)
-			lfoot.animate(
-				{ transform:'t-30,-20,r360' },300, fifthStep
-			)
-
-		}
-		var fifthStep = function(){
-			console.log(5)
-			lfoot.animate(
-				{ transform:'t-30,0,r45' },300, sixthStep
-			)
-
-		}
-		var sixthStep = function(){
-			console.log(6)
-			lfoot.animate(
-				{ transform:'t-60,-20,r360' },300, seventhStep
-			)
-
-		}
-
-		var seventhStep = function(){
-			console.log(7)
-			lfoot.animate(
-				{ transform:'t-60,0,r45' },300, eighthStep
-			)
-
-		}
-		var eighthStep = function(){
-			console.log(8)
-			lfoot.animate(
-				{ transform:'t-80,-20,r360' },300, ninthStep
-			)
-
-		}
-		var ninthStep = function(){
-			console.log(9)
-			lfoot.animate(
-				{ transform:'t-80,0,r45' },300, tenthStep
-			)
-
-		}
-		var tenthStep = function(){
-			console.log(10)
-			lfoot.animate(
-				{ transform:'t-100,-20,r360' },300, eleventhStep
-			)
-
-		}
-		var eleventhStep = function(){
-			console.log(11)
-			lfoot.animate(
-				{ transform:'t-100,0,r45' },300, twelthStep
-			)
-
-		}
-		var twelthStep = function(){
-			console.log(12)
-			lfoot.animate(
-				{ transform:'t-120,-20,r360' },300, thirteenthStep
-			)
-
-		}
-		var thirteenthStep = function(){
-
-			lfoot.animate(
-				{ transform:'t-120,0,r45' },300, fourteenthStep
-			)
-
-		}
-		var fourteenthStep = function(){
-
-			lfoot.animate(
-				{ transform:'t-140,-20,r360' },300, fifteenthStep
-			)
-
-		}
-		var fifteenthStep = function(){
-
-			lfoot.animate(
-				{ transform:'t-140,0,r45' },300, sixteenthStep
-			)
-
-		}
-		var sixteenthStep = function(){
-
-			lfoot.animate(
-				{ transform:'t-160,-20,r360' },300, firstStep
-			)
-
-		}
-
-		var firstStepR = function(){
-
-			console.log("Hello?")
-			rfoot.animate(
-				{ transform:'t15,-20,r35' },300, secondStepR
-			)
-
-		}
-		var secondStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t15,0,r360' },300, thirdStepR
-			)
-
-		}
-		var thirdStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t15,-20,r35' },300, fourthStepR
-			)
-
-		}
-		var fourthStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t5,0,r360' },300, fifthStepR
-			)
-
-		}
-		var fifthStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t5,-20,r35' },300, sixthStepR
-			)
-
-		}
-		var sixthStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t-15,0,r360' },300, seventhStepR
-			)
-
-		}
-		var seventhStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t-15,-20,r35' },300, eighthStepR
-			)
-
-		}
-		var eighthStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t-35,0,r360' },300, ninthStepR
-			)
-
-		}
-		var ninthStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t-35,-20,r35' },300, tenthStepR
-			)
-
-		}
-		var tenthStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t-55,0,r360' },300, eleventhStepR
-			)
-
-		}
-		var eleventhStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t-55,-20,r35' },300, twelthStepR
-			)
-
-		}
-		var twelthStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t-75,0,r360' },300, thirteenthStepR
-			)
-
-		}
-		var thirteenthStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t-75,-20,r35' },300, fourteenthStepR
-			)
-
-		}
-		var fourteenthStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t-95,0,r360' },300, fifteenthStepR
-			)
-
-		}
-
-		var fifteenthStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t-95,-20,r360' },300, sixteenthStepR
-			)
-
-		}
-		var sixteenthStepR = function(){
-
-			rfoot.animate(
-				{ transform:'t-115,0,r35' },300, firstStepR
-			)
-
-		}
-		firstStep()
-		firstStepR()
-		firstStepBody()
-
-			
-		
-		
-			
-				]]>
-		</script>
+	
 		
 			<ellipse id="lfoot_1_" transform="matrix(0.9949 -0.1008 0.1008 0.9949 -12.8407 22.2783)" class="st0" cx="214" cy="138.2" rx="13.5" ry="9.4"/>
 		<circle class="st36" cx="199" cy="99.6" r="68.1"/>
@@ -588,7 +217,7 @@
 		
 			<image style="display:none;overflow:visible;enable-background:new    ;" width="512" height="512" xlink:href="../../../Downloads/cloud (3).png"  transform="matrix(0.16 0 0 0.16 161.822 164.6093)">
 		</image>
-		<g id="CLOUD_1_">
+		<g id="CLOUD1">
 			<g>
 				<g>
 					<path class="st21" d="M144,135.3c3.6,1.5,8.2,4.6,10.4,6.8c2.2,2.2-1.2,5.7-7.3,7.7s-14.8,2.6-19.3,1.4s-7.2-4.9-5.9-8.1
@@ -640,7 +269,7 @@
 				</g>
 			</g>
 		</g>
-		<g id="CLOUD">
+		<g id="CLOUD2">
 			<g>
 				<g>
 					<path class="st21" d="M202.3,133.3c-7.7,2.5-17.8,7.5-22.3,11.3s2.5,9.5,15.7,12.8c13.1,3.3,31.9,4.4,41.6,2.3
@@ -875,7 +504,7 @@
 				</g>
 			</g>
 		</g>
-		<g id="CLOUD_5_">
+		<g id="CLOUD5">
 			<g>
 				<g>
 					<path class="st21" d="M307.6,268.9c-4.8,2-11,6.1-13.8,9.1c-2.8,3,1.6,7.7,9.7,10.3c8.1,2.7,19.7,3.5,25.7,1.9
@@ -1028,7 +657,7 @@
 	<g>
 		<path class="st38" d="M74.6,191.9c0,0-2.9,2.5-6.3,5.5c-3.5,3-3.9,5.7-1,6.1c2.9,0.3-1,4.3-8.6,8.9s-14,8.3-14,8.3"/>
 	</g>
-	<g id="CLOUD_2_">
+	<g id="CLOUD3">
 		<g>
 			<g>
 				<path class="st21" d="M57.4,197.9c4.8,2,11,6.1,13.8,9.1c2.8,3-1.6,7.7-9.7,10.3s-19.7,3.5-25.7,1.9s-9.5-6.5-7.8-10.8
@@ -1099,4 +728,54 @@
 </g>
 <g id="Layer_3_1_">
 </g>
+
+	<script  id="script4196" type="text/javascript">
+			<![CDATA[
+
+	var c1 = Snap("#CLOUD1");
+	var c2 = Snap("#CLOUD2");
+	var c3 = Snap("#CLOUD3");
+		var c5 = Snap("#CLOUD5");
+		console.log(c3)
+
+
+
+
+		var firstStepBody = function(){
+
+			console.log("Hello?")
+			c1.animate(
+				{ transform:'t0,0' },300, secondStepBody
+			)
+				c2.animate(
+				{ transform:'t0,0' },300, secondStepBody
+			)
+				c3.animate(
+				{ transform:'t0,0' },300, secondStepBody
+			)
+
+		}
+		var secondStepBody = function(){
+
+			c1.animate(
+				{ transform:'t0,-10' },300, firstStepBody
+			)
+				c2.animate(
+				{ transform:'t0,-10' },300, firstStepBody
+			)
+				c3.animate(
+				{ transform:'t0,-10' },300, firstStepBody
+			)
+
+		}
+	
+		
+		firstStepBody()
+
+			
+		
+		
+			
+				]]>
+		</script>
 </svg>
