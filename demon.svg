@@ -505,7 +505,8 @@
 				</g>
 			</g>
 		</g>
-		<g>
+		<g id=
+		"LAST">
 			<path class="st21" d="M168.2,252.9c-2.8,0-5.1,0.8-5.1,2c0,1.1,1.8,2,4,2s4,2.5,4,5.6s2.7,5.6,6,5.6s5.9,1.5,5.8,3.3
 				c0,1.8,3.2,3.3,7.2,3.2c4,0,7.2-1.6,7.1-3.5s3-3.5,6.9-3.6c3.8-0.1,7-3,7-6.4s2.1-6.2,4.7-6.2c2.6,0,4.7-1.8,4.6-3.9
 				s-3.8-3.8-8.3-3.8s-8.2,0.7-8.2,1.5s2.7,1.3,5.9,1.2c3.2-0.2,5.8,0.3,5.8,1.1s-1.8,1.4-3.8,1.4c-2.1,0-3.8,2.6-3.9,5.8
@@ -688,17 +689,7 @@
 		console.log(c3)
 
 
-		setInterval(function(){
-
-			c1.animate({ transform:'t0,-10'},300,function(){
-			c1.animate({ transform:'t0,0'},300)
-		})},600)
-						
-		setInterval(function(){
-			c1.animate({ transform:'t0,-10'},300,function(){
-c1.animate({ transform:'t0,0'},300)
-})
-		},600)
+	
 				setInterval(function(){
 
 			c2.animate({ transform:'t0,-10'},300,function(){
@@ -715,7 +706,16 @@ c2.animate({ transform:'t0,0'},300)
 			c3.animate({ transform:'t0,-10'},300,function(){
 			c3.animate({ transform:'t0,0'},300)
 		})},600)
-						
+							setInterval(function(){
+			c2.animate({ transform:'t0,-10'},300,function(){
+c2.animate({ transform:'t0,0'},300)
+})
+		},600)
+				setInterval(function(){
+
+			c5.animate({ transform:'t0,-10'},300,function(){
+			c5.animate({ transform:'t0,0'},300)
+		})},600)	
 		setInterval(function(){
 			c3.animate({ transform:'t0,-10'},300,function(){
 c3.animate({ transform:'t0,0'},300)
