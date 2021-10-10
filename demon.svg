@@ -739,7 +739,40 @@
 		console.log(c3)
 
 
+		setInterval(function(){
 
+			c1.animate({ transform:'t0,-10'},300,function(){
+			c1.animate({ transform:'t0,0'},300)
+		})},600)
+						
+		setInterval(function(){
+			c1.animate({ transform:'t0,-10'},300,function(){
+c1.animate({ transform:'t0,0'},300)
+})
+		},600)
+				setInterval(function(){
+
+			c2.animate({ transform:'t0,-10'},300,function(){
+			c2.animate({ transform:'t0,0'},300)
+		})},600)
+						
+		setInterval(function(){
+			c2.animate({ transform:'t0,-10'},300,function(){
+c2.animate({ transform:'t0,0'},300)
+})
+		},600)
+				setInterval(function(){
+
+			c3.animate({ transform:'t0,-10'},300,function(){
+			c3.animate({ transform:'t0,0'},300)
+		})},600)
+						
+		setInterval(function(){
+			c3.animate({ transform:'t0,-10'},300,function(){
+c3.animate({ transform:'t0,0'},300)
+})
+		},600)
+	
 
 		var firstStepBody = function(){
 
@@ -770,7 +803,7 @@
 		}
 	
 		
-		firstStepBody()
+		//firstStepBody()
 
 			
 		
