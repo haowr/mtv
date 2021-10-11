@@ -794,6 +794,8 @@
 	var c1 = Snap("#CLOUD1");
 	var c2 = Snap("#CLOUD2");
 	var c3 = Snap("#CLOUD3");
+	var c5 = Snap("#CLOUD5");
+
 	var boombody = Snap("#BOOM")
 		console.log(c3)
 
@@ -832,8 +834,8 @@ c2.animate({ transform:'t0,0'},300)
 		},600)
 		
 		setInterval(function(){
-			c3.animate({ transform:'t0,-10'},300,function(){
-c3.animate({ transform:'t0,0'},300)
+			c5.animate({ transform:'t0,-10'},300,function(){
+c5.animate({ transform:'t0,0'},300)
 })
 		},600)
 	
