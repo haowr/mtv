@@ -868,7 +868,7 @@ c3.animate({ transform:'t0,0'},300)
 	
 		
 		//firstStepBody()
-		firstStepTruckBody()
+		/firstStepTruckBody()
 
 			
 		
